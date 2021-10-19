@@ -21,8 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   
   <!-- font-Awesome -->
-  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-
+  <script src="https://kit.fontawesome.com/6174d6f263.js" crossorigin="anonymous"></script>
 
   <title>Dahye Fortfolio</title>
 
@@ -41,13 +40,19 @@
       <li><a href="">Contact us</a></li>
       <li><a href="">Team</a></li>
     </ul>
+    
+    <!-- bar -->
+    <div class="toggle"></div>
+
+
+
   </nav>
 
   <!-- text -->
     <div class="text-container">
       <p>Hello,</p>
-      <p>I'M TOUSEEQ</p>
-      <P>I am Software Engineer <br>& Designer</P>
+      <p>I'M Dahye</p>
+      <P>I am Front-End Devolper</P>
       <button class="hire-btn">Hire me</button>
       <button class="down-cv">Download CV</button>
     </div>
@@ -63,9 +68,9 @@
   <!-- about-text -->
   <div class="about-text">
     <p>About Me</p>
-    <p>Devolper & Designer</p>
-    <p>Hello, My name is Touseeq Ijaz. I am a Devolper and also a Designer.</p>
-    <p> I am a Devolper and also a Designer.</p>
+    <p>Front-End Devolper</p>
+    <p>Hello, My name is Touseeq Ijaz. I am a Front-End Devolper</p>
+    <p> I am a Front-End Devolper.</p>
 
     <!-- button -->
     <button>Hire Me</button>
@@ -93,7 +98,7 @@
     <!-- 1 -->
     <div class="box-1">
       <span>1</span>
-      <p class="heading">Web Design</p>
+      <p class="heading">Front-End Devolper</p>
       <p class="details"> I make as soon as possible. 
         You really like my work, if you don't change this until you like if you want make a software for your bussiness
       contact me. I make as soon.</p>
@@ -154,6 +159,19 @@
   <a href="#"><i class="fab fa-instagram"></i> </a>
   <a href="#"><i class="fab fa-youtube"></i> </a>
 </div>
+<!-- Jquery -->
+<script type="text/JavaScript" src="js/jQuery.js"></script>
+  <script type="text/JavaScript">
+  $(document).ready(function() {
+    $('.toggle').click(function () {
+      $('.toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+
+    })
+  })
+  
+  
+  </script>
 
 </body>
 </html>
